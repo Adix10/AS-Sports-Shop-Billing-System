@@ -1,6 +1,6 @@
 import pandas as pd
 from datetime import datetime
-df = pd.read_csv("C:\\Users\\user\\OneDrive\\Documents\\Python programs\\AA_IP_Project\\Aditya_Arpit_Project.csv", index_col=0)
+df = pd.read_csv("sports_shop_billing/products.csv", index_col=0)
 net = 0
 print("==========================================================================================")
 print("                                𝐀.𝐒 𝐒𝐏𝐎𝐑𝐓𝐒 𝐒𝐇𝐎𝐏                               ")
