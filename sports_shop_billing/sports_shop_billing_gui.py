@@ -77,7 +77,7 @@ def exit_application():
     if messagebox.askyesno("Exit", "Are you sure you want to exit?"):
         root.destroy()
 
-df = pd.read_csv("C:\\Users\\user\\OneDrive\\Desktop\\Aditya\\Aditya_Arpit_Project.csv", index_col=0)
+df = pd.read_csv("sports_shop_billing/products.csv", index_col=0)
 
 root = tk.Tk()
 root.title("A.S Sports Shop")
